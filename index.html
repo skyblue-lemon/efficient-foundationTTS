@@ -173,7 +173,7 @@
     </style>
 </head>
 <body>
-    <h1 class="title">An Efficient Auto-Regressive Language and Flow-Matching Model for Foundational TTS System</h1>
+    <h1 class="title">ULF: An Efficient Unified TTS System using Language and Flow Matching Model</h1>
     
     <!-- <div class="links">
         [<a href="#" target="_blank">Paper</a>]
@@ -193,11 +193,11 @@
     
     <div class="abstract">
         <h2>Abstract:</h2>
-        <p>Foundational text-to-speech (TTS) systems that integrate a language model with a flow-matching decoder have been proposed to generate speech in voice-related applications such as dubbing.
+        <p>Unified text-to-speech (TTS) systems that integrate a language model with a flow matching decoder have been proposed to generate speech in voice-related applications such as dubbing.
             However, these systems suffer from latency and computational overhead caused by next-token prediction and denoising steps.
-            Therefore, we propose an efficient foundation TTS system that incorporates a lightweight flow-matching decoder and variable token prediction latency. 
-            Additionally, we leverage a training strategy employed in diffusion and a large-scale pre-trained model to improve the prediction performance of the language model.
-            The results of objective and subjective evaluations demonstrate that the proposed method is significantly lighter than the existing foundational models while providing competitive speech quality.</p>
+            Therefore, we propose an efficient unified TTS system that integrates a lightweight flow matching decoder and supports variable token prediction time.
+            In addition, we leverage a training strategy from a diffusion-based approach into the language model to enhance its generative performance.
+            The results of objective and subjective evaluations demonstrate that our proposed method is significantly more efficient than existing unified models while maintaining competitive speech quality.</p>
     </div>
 
     <div class="model-figure">
@@ -215,7 +215,7 @@
         </div>
         <div class="feature-card">
             <h3>Natural and Expressive Speech</h3>
-            <p>A training methodology leveraging a diffusion training strategy and large-scale pre-trained models for language model prediction to enhance generation.</p>
+            <p>A training methodology leveraging a diffusion training strategy for the language model training to enhance generation.</p>
         </div>
     </div>
 
@@ -818,7 +818,7 @@
             </table>
         </div>
 
-        <h2 id="ablation-studies">Ablation Studies</h2>
+        <h2 id="ablation-studies">Impact on Multi-token prediction and Decoder types</h2>
         <div class="demo-category">
             <h3>Multi Token Prediction & Decoder Types</h3>
             <table class="demo-table">
